@@ -1,6 +1,5 @@
 const removeElement = require("../easy/removeElement");
 
-
 describe('test removeElement function', () => { 
     it('[3,2,2,3], 3 should return 2 and [2,2,_,_]', () => {
         const input = [3,2,2,3]
