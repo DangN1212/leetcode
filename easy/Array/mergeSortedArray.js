@@ -19,28 +19,17 @@ var merge = function(nums1, m, nums2, n) {
     //
     //compare nums[iNums1] with nums2[iNums1]
 
-    let iNums1 = 0, iNums2 = 0;
+    let iNums1 = 0;
     if(!n){
         return;
     }
 
-    for(iNums1 = 0; iNums1 < nums1.length; iNums1++){
-        if( iNums1 < m && nums1[iNums1] <= nums2[iNums2]){
-            continue
-        }
-
-        if(iNums1 >= m ){
-            nums1.splice(iNums1, 1, nums2[iNums2]);
-            iNums2++
-        }
-
-        if(nums1[iNums1] > nums2[iNums2] ){
-            nums1.splice(iNums1,0, nums2[iNums2]);
-            nums1.pop();
-            iNums2++;
-        }
+    for(iNums1 = 0; iNums1 < n; iNums1++){
+        nums1[m+iNums1] = nums2[iNums1];
     }
+    nums1.sort();
+
 
 };
-merge([1,2,3,0,0,0],3,[2,5,6],3)
+// merge([1,2,3,0,0,0],3,[2,5,6],3)
 module.exports = merge;
