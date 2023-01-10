@@ -13,6 +13,34 @@
  * @param {number} n
  * @return {void} Do not return anything, modify nums1 in-place instead.
  */
-export var merge = function(nums1, m, nums2, n) {
-    
+var merge = function(nums1, m, nums2, n) {
+    //m > n
+    // start with iNums1 = 0,iNums2
+    //
+    //compare nums[iNums1] with nums2[iNums1]
+
+    let iNums1 = 0, iNums2 = 0;
+    if(!n){
+        return;
+    }
+
+    for(iNums1 = 0; iNums1 < nums1.length; iNums1++){
+        if( iNums1 < m && nums1[iNums1] <= nums2[iNums2]){
+            continue
+        }
+
+        if(iNums1 >= m ){
+            nums1.splice(iNums1, 1, nums2[iNums2]);
+            iNums2++
+        }
+
+        if(nums1[iNums1] > nums2[iNums2] ){
+            nums1.splice(iNums1,0, nums2[iNums2]);
+            nums1.pop();
+            iNums2++;
+        }
+    }
+
 };
+merge([1,2,3,0,0,0],3,[2,5,6],3)
+module.exports = merge;

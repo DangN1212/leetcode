@@ -1,5 +1,5 @@
-import { merge } from "../easy/Array/mergeSortedArray";
-
+// import { merge } from "../easy/Array/mergeSortedArray";
+const merge = require("../easy/Array/mergeSortedArray");
 describe('mergeSortedArray function', () => { 
     it('should return [1,2,2,3,5,6]. Input nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3 ', () => {
         const nums1 = [1,2,3,0,0,0], nums2 = [2,5,6];
