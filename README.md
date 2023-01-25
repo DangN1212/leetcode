@@ -3,7 +3,7 @@ Hello, this is my leetcode journey :)
 
 
 ### Jan/08/2023 - easy Array mergeSortedArray.js   
-### Jan/23/2023 - Squares of a Sorted Array
+### Jan/23/2023 - [Squares of a Sorted Array]
 ```
 Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
 
@@ -17,9 +17,8 @@ Example 2:
 Input: nums = [-7,-3,2,3,11]
 Output: [4,9,9,49,121]
 ```
-### Jan/24/2023 - Two sum
+### Jan/24/2023 - [Two sum](https://leetcode.com/problems/two-sum/)
 ```
-[Link](https://leetcode.com/problems/two-sum/)
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
