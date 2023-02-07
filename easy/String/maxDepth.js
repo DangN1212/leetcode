@@ -46,3 +46,4 @@ var maxDepth = function (s) {
 };
 
 
+module.exports = maxDepth
