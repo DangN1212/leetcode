@@ -1,6 +1,15 @@
 # leetcode
 Hello, this is my leetcode journey :)
+### Jul/1/2023 - [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
+```
+Given an integer numRows, return the first numRows of Pascal's triangle.
 
+In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
+Example 1:
+
+Input: numRows = 5
+Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
+```
 ### June/29/2023 - [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
 ```
 You are given an array prices where prices[i] is the price of a given stock on the ith day.
