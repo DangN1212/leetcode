@@ -1,6 +1,13 @@
 # leetcode
 Hello, this is my leetcode journey :)
 
+### Jul/2/2023 - [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)
+```
+Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+
+Note that you must do this in-place without making a copy of the array.
+```
+
 ### Jul/2/2023 - [136. Single Number](https://leetcode.com/problems/single-number/description/)
 ```
 Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
