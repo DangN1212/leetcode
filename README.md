@@ -1,5 +1,14 @@
 # leetcode
 Hello, this is my leetcode journey :)
+
+### Jul/2/2023 - [136. Single Number](https://leetcode.com/problems/single-number/description/)
+```
+Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
+
+You must implement a solution with a linear runtime complexity and use only constant extra space.
+Input: nums = [2,2,1]
+Output: 1
+```
 ### Jul/1/2023 - [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
 ```
 Given an integer numRows, return the first numRows of Pascal's triangle.
