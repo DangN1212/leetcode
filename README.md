@@ -1,6 +1,21 @@
 # leetcode
 Hello, this is my leetcode journey :)
+### Jul/8/2023 - [14. Move Zeroes](https://leetcode.com/problems/longest-common-prefix/description/)
+```
+Write a function to find the longest common prefix string amongst an array of strings.
 
+If there is no common prefix, return an empty string "".
+
+Example 1:
+
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
+Example 2:
+
+Input: strs = ["dog","racecar","car"]
+Output: ""
+Explanation: There is no common prefix among the input strings.
+```
 ### Jul/2/2023 - [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)
 ```
 Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
