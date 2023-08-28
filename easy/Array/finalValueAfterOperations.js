@@ -3,16 +3,13 @@
  * @return {number}
  */
 var finalValueAfterOperations = function(operations) {
-    let i = 0;
-    const mapOperator = {
-        "--X": -1,
-        "X--": -1,
-        "++X": 1,
-        "X++": 1
-    }
+    return operations.reduce((currentValue, currentElement)=>{
+        if(currentElement === "++X" || currentElement === "X++"){
+            currentValue +=1
+        }else{
+            currentValue -=1
+        }
 
-    for(let index = 0; index< operations.length; index++){
-        i += mapOperator[operations[index]]
-    }
-    return i
+        return currentValue
+    }, 0)
 };
