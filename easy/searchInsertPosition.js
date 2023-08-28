@@ -43,11 +43,15 @@
     // }
 
     if(nums.includes(target)){
-        return nums.findIndex(target);
+        return nums.findIndex((e)=>{
+            return e === target;
+        });
     }
-
+   
     nums.push(target);
+
     nums.sort((a,b)=> a - b);
+    // console.log(target)
     return nums.indexOf(target)
 };
 
