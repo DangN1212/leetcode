@@ -25,7 +25,7 @@ describe('searchInsertPosition function', () => {
     it('target is 7 - should return 4', () => {
         const input = [1,3,5,6];
         const result = searchInsert(input, 7);
-        console.log(result)
+
         expect(result).toBe(4)
     });
 });

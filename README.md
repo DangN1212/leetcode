@@ -1,6 +1,11 @@
 # leetcode
 Hello, this is my leetcode journey :)
+### Aug/29/2023 - [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/description/)
+```
+You're given strings jewels representing the types of stones that are jewels, and stones representing the stones you have. Each character in stones is a type of stone you have. You want to know how many of the stones you have are also jewels.
 
+Letters are case sensitive, so "a" is considered a different type of stone from "A".
+```
 ### Aug/28/2023 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
 ```
 Given two strings s and t, return true if t is an anagram of s, and false otherwise.
