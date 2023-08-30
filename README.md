@@ -1,7 +1,17 @@
 # leetcode
 Hello, this is my leetcode journey :)
 ### Aug/29/2023 - 1528. Shuffle String](https://leetcode.com/problems/shuffle-string/description/)
+```
+You are given a string s and an integer array indices of the same length. The string s will be shuffled such that the character at the ith position moves to indices[i] in the shuffled string.
+
+Return the shuffled string.
+```
 ### Aug/29/2023 - [1678. Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/description/)
+```
+You own a Goal Parser that can interpret a string command. The command consists of an alphabet of "G", "()" and/or "(al)" in some order. The Goal Parser will interpret "G" as the string "G", "()" as the string "o", and "(al)" as the string "al". The interpreted strings are then concatenated in the original order.
+
+Given the string command, return the Goal Parser's interpretation of command.
+```
 ### Aug/29/2023 - [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/description/)
 ```
 You're given strings jewels representing the types of stones that are jewels, and stones representing the stones you have. Each character in stones is a type of stone you have. You want to know how many of the stones you have are also jewels.
