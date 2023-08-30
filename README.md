@@ -1,5 +1,6 @@
 # leetcode
 Hello, this is my leetcode journey :)
+### Aug/29/2023 - 1528. Shuffle String](https://leetcode.com/problems/shuffle-string/description/)
 ### Aug/29/2023 - [1678. Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/description/)
 ### Aug/29/2023 - [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/description/)
 ```
