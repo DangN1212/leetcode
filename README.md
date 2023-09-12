@@ -1,5 +1,11 @@
 # leetcode
 Hello, this is my leetcode journey :)
+### Sep/12/2023 - [1636. Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/)
+```
+Given an array of integers nums, sort the array in increasing order based on the frequency of the values. If multiple values have the same frequency, sort them in decreasing order.
+
+Return the sorted array.
+```
 ### Aug/29/2023 - [1528. Shuffle String](https://leetcode.com/problems/shuffle-string/description/)
 ```
 You are given a string s and an integer array indices of the same length. The string s will be shuffled such that the character at the ith position moves to indices[i] in the shuffled string.
