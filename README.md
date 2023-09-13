@@ -1,5 +1,11 @@
 # leetcode
 Hello, this is my leetcode journey :)
+
+### Sep/13/2023 - [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/)
+```
+Given the head of a singly linked list, return the middle node of the linked list.
+If there are two middle nodes, return the second middle node.
+```
 ### Sep/12/2023 - [1773. Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/description/)
 ```
 You are given an array items, where each items[i] = [typei, colori, namei] describes the type, color, and name of the ith item. You are also given a rule represented by two strings, ruleKey and ruleValue.
