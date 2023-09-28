@@ -1,5 +1,11 @@
 # leetcode
 Hello, this is my leetcode journey :)
+### Sep/28/2023 - [1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/)
+```
+Given an array of integers nums, return the number of good pairs.
+
+A pair (i, j) is called good if nums[i] == nums[j] and i < j.
+```
 ### Sep/25/2023 - [807. Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/description/)
 ```
 There is a city composed of n x n blocks, where each block contains a single building shaped like a vertical square prism. You are given a 0-indexed n x n integer matrix grid where grid[r][c] represents the height of the building located in the block at row r and column c.
