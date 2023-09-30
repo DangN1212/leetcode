@@ -1,5 +1,13 @@
 # leetcode
 Hello, this is my leetcode journey :)
+### Oct/1/2023 - [2114. Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/description//)
+```
+A sentence is a list of words that are separated by a single space with no leading or trailing spaces.
+
+You are given an array of strings sentences, where each sentences[i] represents a single sentence.
+
+Return the maximum number of words that appear in a single sentence.
+```
 ### Oct/1/2023 - [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)
 ```
 Given a string s consisting of words and spaces, return the length of the last word in the string.
